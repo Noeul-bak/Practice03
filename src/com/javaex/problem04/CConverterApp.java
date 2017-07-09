@@ -11,9 +11,14 @@ public class CConverterApp {
         CConverter.setRate(1118.70);
         
         
-        //백만원을 달러로 출력
-
+        dollar=CConverter.toDoller(1000000);
+        won=CConverter.toKWR(100);
         
+        
+        System.out.println("백만원은 "+dollar+"달러입니다.");
+        System.out.println("백달러는 "+won+"입니다.");
+ 
+        //백만원을 달러로 출력        
         //100달려를 원으로 출력
         
         
